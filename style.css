@@ -1,0 +1,477 @@
+body {
+background: #687789;
+margin: 1px;
+padding: 0;
+}
+header {
+width: 100%;
+height: fit-content;
+margin: 0 auto;
+padding: 0;
+border-bottom: 0.5px solid #7b8898;
+}
+header > h1 {
+color: #ffffff;
+margin: 0;
+padding: 0px;
+width: 100%;
+text-align: center;
+text-transform: uppercase;
+font-family: Sans-Serif;
+letter-spacing: -1px; 
+}
+
+nav {
+width: 100%;
+border-bottom: 0.5px solid #7b8898;
+}
+.nav-bar {
+height: 44px;
+}
+.a-left {
+float: left;
+color: #ff6a67;
+font-size: 18px;
+font-weight: bold;
+font-family: Sans-Serif;
+letter-spacing: 2.5px;
+text-decoration: none;
+padding: 12px 18px;
+}
+.a-right {
+float: right;
+color: #ff6a67;
+font-size: 20px;
+font-family: Sans-Serif;
+letter-spacing: 4.5px;
+text-decoration: none;
+padding: 10.5px 25px;
+}
+nav a:hover {
+background: #7b8898;
+transition: background 0.35s ease-in-out;
+}
+
+.main-body {
+display: inline-block;
+margin-top: 5px;
+padding: 10px;
+}
+.main-body > .aside-left {
+float: left;
+margin-top: 0px;
+width: 25%;
+font-family: Sans-Serif;
+}
+.aside-left > h2 {
+color: #ff6a67;
+}
+.aside-left > p {
+color: #ffffff;
+font-size: medium;
+text-align: start;
+}
+.aside-left > ul {
+width: fit-content;
+padding-left: 20px;
+color: #ff6a67;
+list-style-type: none;
+}
+.aside-left ul > li {
+margin: 40px 0;
+cursor: pointer;
+}
+.aside-left ul > li::before {
+content: "\2022 ";
+margin-right: 5px;
+font-weight: bold;
+color: #ffffff;
+}
+.aside-left .li-content-first {
+width: fit-content;
+text-align: justify|start;
+color: #ffffff;
+display: none;
+}
+.aside-left ul .li-first:hover .li-content-first {
+cursor: pointer;
+display: inline-block;
+}
+.aside-left .li-content-second {
+width: fit-content;
+text-align: justify|start;
+color: #ffffff;
+display: none;
+}
+.aside-left ul .li-second:hover .li-content-second {
+cursor: pointer;
+display: inline-block;
+}
+.aside-left .li-content-third {
+width: fit-content;
+text-align: justify|start;
+color: #ffffff;
+display: none;
+}
+.aside-left ul .li-third:hover .li-content-third {
+cursor: pointer;
+display: inline-block;
+}
+.aside-left .li-content-fourth {
+width: fit-content;
+text-align: justify|start;
+color: #ffffff;
+display: none;
+}
+.aside-left ul .li-fourth:hover .li-content-fourth {
+cursor: pointer;
+display: inline-block;
+}
+
+.main-body > .aside-right {
+float: right;
+margin-top: 0px;
+width: 28%;
+font-family: Sans-Serif;
+border-left: 0.5px solid #7b8898;
+padding-left: 10px;
+}
+.aside-right > h2 {
+color: #ff6a67;
+}
+.aside-right > p {
+color: #ffffff;
+font-size: medium;
+}
+.main-body > .inside {
+float: left;
+width: 35%;
+margin-left: 40px;
+font-family: Sans-Serif;
+}
+.inside > h2 {
+color: #ffffff;
+}
+.inside > ul {
+margin: 0px;
+padding: 0px;
+color: #ffffff;
+list-style-type: none;
+}
+.inside ul > li {
+color: #ff6a67;
+}
+.inside ul > li::before {
+content: "\2022 ";
+margin-right: 5px;
+font-weight: bold;
+color: #ffffff;
+}
+.inside li > p {
+color: #ffffff;
+}
+
+footer {
+background: #ff6a67;
+padding: 30px 50px;
+}
+footer .footer-main {
+display: flex;
+}
+.footer-main #logo {
+margin: 0 90px;
+font-family: Sans-Serif;
+}
+
+.footer-main #get-started {
+margin: 0 40px;
+font-family: Sans-Serif;
+}
+.footer-main #get-started > .get-started-link {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+.footer-main #get-started .get-started-link li {
+margin: 13px 0;
+}
+.footer-main #get-started .get-started-link li > a:hover {
+width: fit-content;
+border-bottom: 0.5px solid;
+}
+
+.footer-main #about-us {
+margin: 0 40px;
+font-family: Sans-Serif;
+}
+.footer-main #about-us > .about-us-link {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+.footer-main #about-us .about-us-link li {
+margin: 13px 0;
+}
+.footer-main #about-us .about-us-link li > a:hover {
+width: fit-content;
+border-bottom: 0.5px solid;
+}
+
+.footer-main #support {
+margin: 0 40px;
+font-family: Sans-Serif;
+}
+.footer-main #support > .support-link {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+.footer-main #support .support-link li {
+margin: 13px 0;
+}
+.footer-main #support .support-link li > a:hover {
+width: fit-content;
+border-bottom: 0.5px solid;
+}
+
+.footer-main #contact {
+font-size: x-large;
+font-family: Sans-Serif;
+margin-left: 150px;
+}
+.footer-main #contact > h5 {
+font-size: medium;
+margin: 10px 0;
+}
+.footer-main #contact > a {
+margin: 0 3px;
+}
+.footer-main #contact > button {
+background: #687789;
+color: #000000;
+font-size: medium;
+cursor: pointer;
+padding: 8px 15px;
+border-radius: 4px;
+border: none;
+margin: 10px 5px;
+}
+.footer-main #contact > button:hover {
+color: #ff6a67;
+}
+
+.footer-main a {
+color: #000000;
+text-decoration: none;
+}
+#copyright {
+text-align: center;
+font-size: x-small;
+font-family: Sans-Serif;
+padding: 0;
+color: #ff6a67;
+}
+
+@media screen and (max-width: 770px) {
+.main-body {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+}
+.main-body > .aside-left {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Sans-Serif;
+}
+.main-body > .inside {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Sans-Serif;
+}
+.main-body > .aside-right {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Sans-Serif;
+    border: none;
+}
+footer {
+    background: #ff6a67;
+    padding: 20px 0;
+}
+footer .footer-main {
+    width: 100%;
+    display: flex;
+}
+.footer-main #logo {
+    margin: 0;
+    padding: 0 20px;
+    font-family: Sans-Serif;
+}
+.footer-main #get-started {
+    margin: 0;
+    padding: 0 10px;
+    font-family: Sans-Serif;
+}
+.footer-main #about-us {
+    margin: 0;
+    padding: 0 10px;
+    font-family: Sans-Serif;
+}
+.footer-main #support {
+    margin: 0;
+    padding: 0 10px;
+    font-family: Sans-Serif;
+}
+.footer-main #contact {
+    margin: 0;
+    padding: 0 20px;
+    font-family: Sans-Serif;
+}
+}
+@media screen and (max-width: 430px) {
+body {
+    background: #687789;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 0;
+    border-bottom: 0.5px solid #7b8898;
+}
+header > h1 {
+    color: #ffffff;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Sans-Serif;
+    font-size: x-large;
+    letter-spacing: -1px; 
+}
+
+nav {
+    width: 100%;
+    border-bottom: 0.5px solid #7b8898;
+}
+.nav-bar {
+    height: 44px;
+}
+.a-left {
+    float: left;
+    color: #ff6a67;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Sans-Serif;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    padding: 12px 9px;
+}
+#mail {
+    font-size: small;
+}
+.a-right {
+    float: right;
+    color: #ff6a67;
+    font-size: medium;
+    font-family: Sans-Serif;
+    letter-spacing: 4.5px;
+    text-decoration: none;
+    padding: 12px 12px;
+}
+nav a:hover {
+    background: #7b8898;
+    transition: background 0.35s ease-in-out;
+}
+
+
+.main-body {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+}
+.main-body > .aside-left {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Sans-Serif;
+}
+.main-body > .inside {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Sans-Serif;
+}
+.main-body > .aside-right {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Sans-Serif;
+    border: none;
+}
+
+footer {
+    background: #ff6a67;
+    padding: 20px 0;
+    width: 100%;
+}
+footer .footer-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-main #logo {
+    display: none;
+    margin: 0;
+    padding: 0 20px;
+    font-family: Sans-Serif;
+}
+.footer-main #get-started {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Sans-Serif;
+}
+.footer-main #get-started h4 {
+    font-size: large;
+}
+.footer-main #about-us {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Sans-Serif;
+}
+.footer-main #about-us h4 {
+    font-size: large;
+}
+.footer-main #support {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Sans-Serif;
+}
+.footer-main #support h4 {
+    font-size: large;
+}
+.footer-main #contact {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Sans-Serif;
+}
+.footer-main #contact h4 {
+    font-size: large;
+}
+}
